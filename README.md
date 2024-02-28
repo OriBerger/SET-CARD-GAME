@@ -4,15 +4,12 @@
 
 * This project is an implementation of the card game "Set," a real-time card game involving pattern recognition. The game contains a deck of 81 cards, each with four features: color, number, shape, and shading. Players compete to find "legal sets" of three cards that adhere to specific rules regarding these features.
   
-
-
 ## Game Flow
 
  * The game starts with 12 cards drawn from the deck, arranged in a 3x4 grid on the table.
   Players place tokens on cards. Once a player places a third token, they request the dealer to verify the legality of the set.
   If the set is not legal, the player is frozen for a specified time as a penalty.
   If the set is legal, the cards are replaced, and the player earns a point but is also frozen for a shorter time period.
-
 
 ## Game Features
  * ### Cards and Features
@@ -38,13 +35,6 @@ A legal set is a set of 3 cards that for each of the four features — color, nu
   * All cards have the same value for the feature.
   
   * All cards have different values for the feature.
-    
-  ![Screenshot 2023-08-28 at 12-06-40 Microsoft Word - Assignment2-v1 1-30 11 22 docx - Assignment2-V1 0-V1 1-changes-1 pdf](https://github.com/Talmal6/Set-Card-Game/assets/130377913/416b34b1-f3dd-4e49-9fdb-7f390af9d52f)
-      
-      
-    these 3 cards do form a set, because the shadings of the three cards are all the same,while the numbers, the colors, and the shapes are all different.
-
-
 
 ## Project Goals
 ### 1. Practice Concurrent Programming
@@ -71,10 +61,6 @@ A legal set is a set of 3 cards that for each of the four features — color, nu
 ### Fair Synchronization
 
 * The FIFO-based synchronization mechanism ensures that if two players try to claim a set at the same time, they are serviced in the order they claimed.
-
-## Visual Overview
-
-<img src="https://github.com/Talmal6/Set-Card-Game/assets/130377913/ca225e84-27fd-47ee-8e77-bf9b93f97a50" width="600" height="400">
 
 ## About
 
